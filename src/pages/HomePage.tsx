@@ -8,37 +8,29 @@ import agileImage from '@/assets/agile-transformation.jpg';
 import performanceImage from '@/assets/performance-optimization.jpg';
 import portfolioImage from '@/assets/portfolio-management.jpg';
 import programImage from '@/assets/program-management.jpg';
-
 const HomePage = () => {
-  const services = [
-    {
-      title: 'Agile & SAFe Transformation',
-      description: 'Assessment, LACE, SAFe adoption & ART launch, value-stream funding',
-      image: agileImage,
-      outcome: 'Faster delivery, cross-functional alignment, quality'
-    },
-    {
-      title: 'Performance Optimization', 
-      description: 'Cross-country dev process optimization, execution diagnostics, KPI/OKR alignment',
-      image: performanceImage,
-      outcome: 'Reliable, efficient, data-driven organization'
-    },
-    {
-      title: 'Portfolio Management',
-      description: 'Strategic alignment, prioritization frameworks, dynamic value-stream funding',
-      image: portfolioImage,
-      outcome: 'Transparent, predictable, impact-maximizing portfolio'
-    },
-    {
-      title: 'Program/Project Management',
-      description: 'PM training/coaching, lean governance & flow, TTM analysis',
-      image: programImage,
-      outcome: 'Reliable delivery, stakeholder confidence, improved satisfaction'
-    },
-  ];
-
-  return (
-    <div className="min-h-screen">
+  const services = [{
+    title: 'Agile & SAFe Transformation',
+    description: 'Assessment, LACE, SAFe adoption & ART launch, value-stream funding',
+    image: agileImage,
+    outcome: 'Faster delivery, cross-functional alignment, quality'
+  }, {
+    title: 'Performance Optimization',
+    description: 'Cross-country dev process optimization, execution diagnostics, KPI/OKR alignment',
+    image: performanceImage,
+    outcome: 'Reliable, efficient, data-driven organization'
+  }, {
+    title: 'Portfolio Management',
+    description: 'Strategic alignment, prioritization frameworks, dynamic value-stream funding',
+    image: portfolioImage,
+    outcome: 'Transparent, predictable, impact-maximizing portfolio'
+  }, {
+    title: 'Program/Project Management',
+    description: 'PM training/coaching, lean governance & flow, TTM analysis',
+    image: programImage,
+    outcome: 'Reliable delivery, stakeholder confidence, improved satisfaction'
+  }];
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative py-20 lg:py-32 bg-gradient-hero">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -63,60 +55,27 @@ const HomePage = () => {
               </div>
             </div>
             <div className="relative">
-              <img 
-                src={heroImage} 
-                alt="Professional executives collaborating on business transformation strategy"
-                className="rounded-2xl shadow-lg-custom w-full h-auto"
-              />
+              <img src={heroImage} alt="Professional executives collaborating on business transformation strategy" className="rounded-2xl shadow-lg-custom w-full h-auto" />
             </div>
           </div>
         </div>
       </section>
 
       {/* Trust Indicators */}
-      <section className="py-16 bg-secondary/50">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-8 text-center">
-            <div className="space-y-2">
-              <Users className="h-12 w-12 text-primary mx-auto" />
-              <h3 className="text-2xl font-heading font-semibold">20+ Years</h3>
-              <p className="text-muted-foreground">Global leadership experience</p>
-            </div>
-            <div className="space-y-2">
-              <TrendingUp className="h-12 w-12 text-primary mx-auto" />
-              <h3 className="text-2xl font-heading font-semibold">€400M+</h3>
-              <p className="text-muted-foreground">Portfolio value managed</p>
-            </div>
-            <div className="space-y-2">
-              <Target className="h-12 w-12 text-primary mx-auto" />
-              <h3 className="text-2xl font-heading font-semibold">Proven Results</h3>
-              <p className="text-muted-foreground">Healthcare, tech, SaaS & software</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Services Preview */}
       <section className="py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-              Transform Your Organization
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Expert consulting services designed for tech & healthcare executives seeking measurable outcomes
-            </p>
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">Services That Drive Real Results</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Expert consulting services designed for technology and IT organizations seeking measurable outcomes</p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {services.map((service, index) => (
-              <Card key={index} className="card-professional group hover:shadow-brand">
+            {services.map((service, index) => <Card key={index} className="card-professional group hover:shadow-brand">
                 <div className="aspect-square mb-4 overflow-hidden rounded-xl">
-                  <img 
-                    src={service.image} 
-                    alt={`${service.title} consulting service`}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
+                  <img src={service.image} alt={`${service.title} consulting service`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                 </div>
                 <h3 className="text-xl font-heading font-semibold mb-3">{service.title}</h3>
                 <p className="text-muted-foreground mb-4 text-sm">{service.description}</p>
@@ -130,8 +89,7 @@ const HomePage = () => {
                     <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </Button>
-              </Card>
-            ))}
+              </Card>)}
           </div>
           
           <div className="text-center mt-12">
@@ -141,8 +99,6 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default HomePage;
