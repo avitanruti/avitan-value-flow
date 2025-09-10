@@ -9,32 +9,32 @@ const EventsPage = () => {
   const events = [
     {
       title: 'Agile Cross-Company Meetup',
-      location: 'HÁRT Museum — Amsterdam',
-      date: 'June 5, 2025',
+      location: 'HÁRT Museum',
+      date: 'June 5, 2024',
       type: 'Meetup',
       description: 'Cross-company collaboration session focused on agile transformation best practices and shared learnings across different industries.',
-      status: 'upcoming'
+      status: 'past'
     },
     {
       title: 'Israel Fintech Breakfast',
-      location: 'Money20/20 Week — Amsterdam',
-      date: 'June 4, 2025',
+      location: 'Money20/20 Week',
+      date: 'June 4, 2024',
       type: 'Networking',
       description: 'Exclusive breakfast networking event during Money20/20 week, bringing together Israeli fintech leaders and international partners.',
-      status: 'upcoming'
+      status: 'past'
     },
     {
       title: 'SAP Data Unleashed Networking Event',
-      location: 'Amsterdam',
-      date: 'May 2025',
+      location: 'Virtual Event',
+      date: 'May 2024',
       type: 'Corporate Event',
       description: 'Strategic networking event focused on data transformation and enterprise solutions in the modern business landscape.',
-      status: 'upcoming'
+      status: 'past'
     },
     {
       title: 'IBM Executive Breakfast – "Put AI to Work"',
-      location: 'Amsterdam',
-      date: 'March 19, 2025',
+      location: 'Executive Session',
+      date: 'March 19, 2024',
       type: 'Executive Session',
       description: 'Executive breakfast session exploring practical AI implementation strategies and transformation frameworks for enterprise organizations.',
       status: 'past'

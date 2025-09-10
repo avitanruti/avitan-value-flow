@@ -94,9 +94,11 @@ const ContactPage = () => {
                     <div>
                       <h3 className="font-heading font-semibold text-foreground mb-1">Schedule Meeting</h3>
                       <p className="text-muted-foreground mb-2">Book a free consultation session</p>
-                      <Button variant="outline" className="mt-2">
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        Schedule via Calendar
+                      <Button variant="outline" className="mt-2" asChild>
+                        <a href="https://calendly.com/avitanruti" target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="h-4 w-4 mr-2" />
+                          Schedule via Calendar
+                        </a>
                       </Button>
                     </div>
                   </div>
@@ -197,9 +199,11 @@ const ContactPage = () => {
                   <Button type="submit" className="flex-1">
                     Send Message
                   </Button>
-                  <Button type="button" variant="outline" className="flex-1">
-                    <Calendar className="h-4 w-4 mr-2" />
-                    Schedule Meeting
+                  <Button type="button" variant="outline" className="flex-1" asChild>
+                    <a href="https://calendly.com/avitanruti" target="_blank" rel="noopener noreferrer">
+                      <Calendar className="h-4 w-4 mr-2" />
+                      Schedule Meeting
+                    </a>
                   </Button>
                 </div>
 
