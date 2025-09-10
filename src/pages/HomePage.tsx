@@ -11,7 +11,7 @@ import programImage from '@/assets/program-management.jpg';
 const HomePage = () => {
   const services = [{
     title: 'Agile & SAFe Transformation',
-    description: 'Assessment, LACE, SAFe adoption & ART launch, value-stream funding',
+    description: 'Assessment, LACE, SAFe design & ART launch, Training, value stream funding',
     image: agileImage,
     outcome: 'Faster delivery, cross-functional alignment, quality'
   }, {
