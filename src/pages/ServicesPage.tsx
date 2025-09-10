@@ -13,7 +13,7 @@ const ServicesPage = () => {
     {
       title: 'Agile & SAFe Transformation',
       image: agileImage,
-      description: 'Comprehensive transformation services to modernize your development practices and organizational structure.',
+      description: 'End to end support for organizations ready to scale agility across teams, portfolios, and leadership. SAFe certified experts to guide implementation, coach stakeholders, and align delivery with strategic outcomes. Build and lead Agile transformation programs grounded in the SAFe framework — customized to your organization\'s structure, maturity, and goals. Whether you\'re launching new teams or evolving enterprise agility, our coaching bridges the gap between theory and execution, fostering resilience, clarity, and continuous improvement.',
       keyDeliverables: [
         'Assessment and roadmap development',
         'LACE (Lean-Agile Center of Excellence) establishment',
@@ -21,9 +21,10 @@ const ServicesPage = () => {
         'ART design and optimization',
         'Value-stream funding models',
         'Lean Portfolio alignment',
-        'Retrospectives and executive coaching'
+        'Retrospectives and executive coaching',
+        'Scaled Agile Framework core and advanced certifications (in English)'
       ],
-      outcome: 'Faster delivery cycles, improved cross-functional alignment, enhanced quality, and sustainable agile practices across the organization.'
+      outcome: 'From initial assessments to rollout and continuous improvement, driving a mindset shift toward sustainable change and delivering measurable results in delivery speed, cross functional alignment, and product quality.'
     },
     {
       title: 'Performance Optimization',
