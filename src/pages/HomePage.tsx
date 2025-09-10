@@ -42,7 +42,7 @@ const HomePage = () => {
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
                 We help companies strengthen global management practices, optimize program management, 
-                lead digital and agile transformations and operational excellence, driving end-to-end 
+                lead digital and agile transformations strength operational excellence and driving end-to-end 
                 value delivery and sustainable business success.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
