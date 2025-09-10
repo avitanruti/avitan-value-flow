@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { ArrowRight, MapPin, Calendar, Users } from 'lucide-react';
 
 const AboutPage = () => {
@@ -12,6 +13,16 @@ const AboutPage = () => {
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
+            <div className="mb-8 flex justify-center">
+              <Avatar className="h-32 w-32 md:h-40 md:w-40 border-4 border-white shadow-elegant">
+                <AvatarImage 
+                  src="/lovable-uploads/9bdbbcf3-98ea-492d-b4d1-3b678534ef52.png" 
+                  alt="Ruti Avitan - Global leader in healthcare technology and software transformation"
+                  className="object-cover"
+                />
+                <AvatarFallback className="text-2xl font-heading">RA</AvatarFallback>
+              </Avatar>
+            </div>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-6">
               About Ruti Avitan
             </h1>
