@@ -45,7 +45,8 @@ const EventsPage = () => {
       date: 'April 2024',
       type: 'Conference',
       description: 'Presented Philips EMR&CM transformation case study, showcasing successful SAFe implementation and organizational change management.',
-      status: 'past'
+      status: 'past',
+      image: '/lovable-uploads/ad3c999f-8ad9-4b9f-9d28-353404cbcb83.png'
     }
   ];
 
@@ -101,6 +102,13 @@ const EventsPage = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {upcomingEvents.map((event, index) => (
                 <Card key={index} className="card-professional hover:shadow-brand">
+                  {(event as any).image && (
+                    <img 
+                      src={(event as any).image} 
+                      alt={event.title}
+                      className="w-full h-auto rounded-lg mb-4 object-cover"
+                    />
+                  )}
                   <div className="flex justify-between items-start mb-4">
                     {getStatusBadge(event.status)}
                     {getTypeBadge(event.type)}
@@ -147,6 +155,13 @@ const EventsPage = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {pastEvents.map((event, index) => (
               <Card key={index} className="card-professional">
+                {(event as any).image && (
+                  <img 
+                    src={(event as any).image} 
+                    alt={event.title}
+                    className="w-full h-auto rounded-lg mb-4 object-cover"
+                  />
+                )}
                 <div className="flex justify-between items-start mb-4">
                   {getStatusBadge(event.status)}
                   {getTypeBadge(event.type)}
