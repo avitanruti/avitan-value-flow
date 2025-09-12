@@ -46,7 +46,7 @@ const EventsPage = () => {
       type: 'Conference',
       description: 'Presented Philips EMR&CM transformation case study, showcasing successful SAFe implementation and organizational change management.',
       status: 'past',
-      image: '/lovable-uploads/ad3c999f-8ad9-4b9f-9d28-353404cbcb83.png'
+      image: '/lovable-uploads/50e4f2dc-9d1f-44b2-9c5b-10d83af8f516.png'
     }
   ];
 
