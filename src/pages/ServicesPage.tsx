@@ -44,7 +44,7 @@ const ServicesPage = () => {
     {
       title: 'Portfolio Management',
       image: portfolioImage,
-      description: 'Strategic portfolio management to maximize value delivery and ensure organizational alignment.',
+      description: "Traditional portfolio management struggles to keep pace with the demands of today's digital, fast moving markets. A portfolio cannot be treated as a simple list of initiatives or products; it must serve as a strategic engine that reflects business priorities, drives predictable execution, and delivers measurable financial outcomes.",
       keyDeliverables: [
         'Strategic alignment assessment',
         'Prioritization frameworks (LPM)',
