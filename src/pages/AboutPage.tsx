@@ -16,7 +16,7 @@ const AboutPage = () => {
             <div className="mb-8 flex justify-center">
               <Avatar className="h-32 w-32 md:h-40 md:w-40 border-4 border-white shadow-elegant">
                 <AvatarImage 
-                  src="/lovable-uploads/9bdbbcf3-98ea-492d-b4d1-3b678534ef52.png" 
+                  src="/lovable-uploads/ad3c999f-8ad9-4b9f-9d28-353404cbcb83.png" 
                   alt="Ruti Avitan - Global leader in healthcare technology and software transformation"
                   className="object-cover"
                 />
