@@ -55,7 +55,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="relative">
-              <img src="/lovable-uploads/790103ba-c2e9-488b-be66-1aee4e1315cf.png" alt="Professional executives collaborating on business transformation strategy" className="rounded-2xl shadow-lg-custom w-full h-auto" />
+              <img src="/lovable-uploads/e21b96a0-dfeb-46ed-9691-71c3400bb13e.png" alt="Professional executives collaborating on business transformation strategy" className="rounded-2xl shadow-lg-custom w-full h-auto" />
             </div>
           </div>
         </div>
