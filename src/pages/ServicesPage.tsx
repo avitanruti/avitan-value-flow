@@ -13,7 +13,7 @@ const ServicesPage = () => {
     {
       title: 'Performance Optimization',
       image: performanceImage,
-      description: 'Streamline operations and maximize efficiency across all business functions by identifying process challenges and implementing simplifications and improvements to streamline global processes. Enable teams to perform at their best while achieving business goals without compromising quality or strategy.',
+      description: 'Streamline operations and maximize efficiency across all business functions by identifying process challenges and implementing simplifications and AI solutions to streamline global processes.',
       keyDeliverables: [
         'Cross-country development process optimization',
         'Time-to-Market (TTM) and Time-to-Value (TTV) improvement',
