@@ -11,6 +11,36 @@ import programImage from '@/assets/program-management.jpg';
 const ServicesPage = () => {
   const services = [
     {
+      title: 'Performance Optimization',
+      image: performanceImage,
+      description: 'Streamline operations and maximize efficiency across all business functions by identifying process challenges and implementing simplifications and improvements to streamline global processes. Enable teams to perform at their best while achieving business goals without compromising quality or strategy.',
+      keyDeliverables: [
+        'Cross-country development process optimization',
+        'Time-to-Market (TTM) and Time-to-Value (TTV) improvement',
+        'Predictability enhancement frameworks',
+        'Execution diagnostics and root cause analysis',
+        'KPI and OKR alignment strategies',
+        'Lean operations (automation/AI/S&OP)',
+        'Stakeholder and program management optimization'
+      ],
+      outcome: 'A high performing, compliant, and scalable organization where execution meets strategy. Teams collaborate seamlessly across geographies, delivery becomes reliable and fast, and decision making is data driven. The result is measurable improvements in speed, efficiency, cost, and product quality - all while fostering organizational clarity, resilience, and long term business success.'
+    },
+    {
+      title: 'Program/Project Management',
+      image: programImage,
+      description: 'Comprehensive program management services to ensure reliable delivery and stakeholder satisfaction.',
+      keyDeliverables: [
+        'PM training and coaching programs',
+        'Lean governance and flow optimization',
+        'Time-to-Market and root-cause analysis',
+        'Process and methodology implementation',
+        'KPI systems and measurement frameworks',
+        'Iterative tracking and monitoring',
+        'Results-driven continuous improvement'
+      ],
+      outcome: 'Reliable delivery capabilities, enhanced stakeholder confidence, improved team satisfaction, and predictable project outcomes.'
+    },
+    {
       title: 'Agile & SAFe Transformation',
       image: agileImage,
       description: 'End to end support for organizations ready to scale agility across teams, portfolios, and leadership. SAFe certified experts to guide implementation, coach stakeholders, and align delivery with strategic outcomes. Build and lead Agile transformation programs grounded in the SAFe framework — customized to your organization\'s structure, maturity, and goals. Whether you\'re launching new teams or evolving enterprise agility, our coaching bridges the gap between theory and execution, fostering resilience, clarity, and continuous improvement.',
@@ -27,21 +57,6 @@ const ServicesPage = () => {
       outcome: 'From initial assessments to rollout and continuous improvement, driving a mindset shift toward sustainable change and delivering measurable results in delivery speed, cross functional alignment, and product quality.'
     },
     {
-      title: 'Performance Optimization',
-      image: performanceImage,
-      description: 'Streamline operations and maximize efficiency across all business functions by identifying process challenges and implementing simplifications and improvements to streamline global processes. Enable teams to perform at their best while achieving business goals without compromising quality or strategy.',
-      keyDeliverables: [
-        'Cross-country development process optimization',
-        'Time-to-Market (TTM) and Time-to-Value (TTV) improvement',
-        'Predictability enhancement frameworks',
-        'Execution diagnostics and root cause analysis',
-        'KPI and OKR alignment strategies',
-        'Lean operations (automation/AI/S&OP)',
-        'Stakeholder and program management optimization'
-      ],
-      outcome: 'A high performing, compliant, and scalable organization where execution meets strategy. Teams collaborate seamlessly across geographies, delivery becomes reliable and fast, and decision making is data driven. The result is measurable improvements in speed, efficiency, cost, and product quality - all while fostering organizational clarity, resilience, and long term business success.'
-    },
-    {
       title: 'Portfolio Management',
       image: portfolioImage,
       description: "Traditional portfolio management struggles to keep pace with the demands of today's digital, fast moving markets. A portfolio cannot be treated as a simple list of initiatives or products; it must serve as a strategic engine that reflects business priorities, drives predictable execution, and delivers measurable financial outcomes.",
@@ -55,21 +70,6 @@ const ServicesPage = () => {
         'Continuous improvement processes'
       ],
       outcome: 'Transparent, predictable, and impact-maximizing portfolio with clear visibility into value delivery and strategic alignment.'
-    },
-    {
-      title: 'Program/Project Management',
-      image: programImage,
-      description: 'Comprehensive program management services to ensure reliable delivery and stakeholder satisfaction.',
-      keyDeliverables: [
-        'PM training and coaching programs',
-        'Lean governance and flow optimization',
-        'Time-to-Market and root-cause analysis',
-        'Process and methodology implementation',
-        'KPI systems and measurement frameworks',
-        'Iterative tracking and monitoring',
-        'Results-driven continuous improvement'
-      ],
-      outcome: 'Reliable delivery capabilities, enhanced stakeholder confidence, improved team satisfaction, and predictable project outcomes.'
     }
   ];
 
