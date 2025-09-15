@@ -37,8 +37,8 @@ const HomePage = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-foreground leading-tight">
-                Drive End-to-End Value & 
-                <span className="text-primary"> Sustainable Success</span>
+                Change Management & 
+                <span className="text-primary"> Program Management Services</span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
                 We help companies strengthen global management practices, optimize program management, 
