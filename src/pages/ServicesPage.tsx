@@ -15,12 +15,12 @@ const ServicesPage = () => {
       image: performanceImage,
       description: 'Streamline operations and maximize efficiency across all business functions by identifying process challenges, implementing simplifications and AI solutions to streamline global processes.',
       keyDeliverables: [
-        'Cross-country development process optimization',
+        'Processes optimization',
         'Time-to-Market (TTM) and Time-to-Value (TTV) improvement',
-        'Predictability enhancement frameworks',
+        'Predictability enhancement frameworks (S&OP)',
         'Execution diagnostics and root cause analysis',
         'KPI and OKR alignment strategies',
-        'Lean operations (automation/AI/S&OP)',
+        'Lean operations and AI solutions implementations',
         'Stakeholder and program management optimization'
       ],
       outcome: 'A high performing, compliant, and scalable organization where execution meets strategy. Teams collaborate seamlessly across geographies, delivery becomes reliable and fast, and decision making is data driven. The result is measurable improvements in speed, efficiency, cost, and product quality - all while fostering organizational clarity, resilience, and long term business success.'
