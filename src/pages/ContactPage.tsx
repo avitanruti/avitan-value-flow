@@ -4,26 +4,61 @@ import { Card } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
+import { useToast } from '@/hooks/use-toast';
 import { Mail, Phone, MapPin, Calendar, Clock, ExternalLink } from 'lucide-react';
 
 const ContactPage = () => {
+  const { toast } = useToast();
   const [formData, setFormData] = React.useState({
     fullName: '',
     email: '',
     company: '',
     message: ''
   });
+  const [isLoading, setIsLoading] = React.useState(false);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Form submission logic would go here
-    console.log('Form submitted:', formData);
-    // You could integrate with Supabase or another backend service here
+    setIsLoading(true);
+
+    try {
+      const response = await fetch('https://formspree.io/f/mzzaqnqz', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        toast({
+          title: "Message sent successfully!",
+          description: "Thank you for reaching out. I'll get back to you soon.",
+        });
+        // Reset form
+        setFormData({
+          fullName: '',
+          email: '',
+          company: '',
+          message: ''
+        });
+      } else {
+        throw new Error('Failed to send message');
+      }
+    } catch (error) {
+      toast({
+        title: "Failed to send message",
+        description: "Please try again or contact me directly at avitanruti@gmail.com",
+        variant: "destructive",
+      });
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -196,8 +231,8 @@ const ContactPage = () => {
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                  <Button type="submit" className="flex-1">
-                    Send Message
+                  <Button type="submit" className="flex-1" disabled={isLoading}>
+                    {isLoading ? "Sending..." : "Send Message"}
                   </Button>
                   <Button type="button" variant="outline" className="flex-1" asChild>
                     <a href="https://calendly.com/avitanruti" target="_blank" rel="noopener noreferrer">
