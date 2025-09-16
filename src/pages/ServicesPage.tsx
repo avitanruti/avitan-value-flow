@@ -9,6 +9,10 @@ import portfolioImage from '@/assets/portfolio-management.jpg';
 import programImage from '@/assets/program-management.jpg';
 
 const ServicesPage = () => {
+  // Scroll to top when component mounts
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const services = [
     {
       title: 'Performance Optimization',
