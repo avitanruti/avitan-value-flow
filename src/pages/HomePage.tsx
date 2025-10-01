@@ -37,7 +37,7 @@ const HomePage = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
-              <h1 className="text-xl md:text-2xl lg:text-3xl font-heading font-bold text-foreground leading-tight">
+              <h1 className="text-3xl md:text-4xl font-heading font-bold text-foreground leading-tight">
                 Change Management & 
                 <span className="text-primary"> Program Management Services</span>
               </h1>
