@@ -48,7 +48,7 @@ const HomePage = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="text-lg px-8">
-                  <Link to="/contact">Start Your Transformation</Link>
+                  <Link to="/about">Learn More About Me</Link>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="text-lg px-8">
                   <Link to="/contact">Schedule Free Consultation</Link>
