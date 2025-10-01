@@ -5,21 +5,15 @@ import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { ArrowRight, MapPin, Calendar, Users } from 'lucide-react';
-
 const AboutPage = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Header Section */}
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <div className="mb-8 flex justify-center">
               <Avatar className="h-32 w-32 md:h-40 md:w-40 border-4 border-white shadow-elegant">
-                <AvatarImage 
-                  src="/lovable-uploads/ad3c999f-8ad9-4b9f-9d28-353404cbcb83.png" 
-                  alt="Ruti Avitan - Global leader in healthcare technology and software transformation"
-                  className="object-cover"
-                />
+                <AvatarImage src="/lovable-uploads/ad3c999f-8ad9-4b9f-9d28-353404cbcb83.png" alt="Ruti Avitan - Global leader in healthcare technology and software transformation" className="object-cover" />
                 <AvatarFallback className="text-2xl font-heading">RA</AvatarFallback>
               </Avatar>
             </div>
@@ -96,12 +90,7 @@ const AboutPage = () => {
                         and executive coaching necessary to sustain long-term success.
                       </p>
                       
-                      <p>
-                        Based in Amsterdam, Netherlands, Ruti works with clients globally, bringing a unique 
-                        perspective informed by diverse international markets and regulatory environments. 
-                        Her approach is always data-driven, outcome-focused, and tailored to each organization's 
-                        specific challenges and goals.
-                      </p>
+                      <p>Ruti works with clients globally, bringing a unique perspective informed by diverse international markets and regulatory environments. Her approach is always data-driven, outcome-focused, and tailored to each organization's specific challenges and goals.</p>
                     </div>
                   </div>
 
@@ -178,8 +167,6 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default AboutPage;
