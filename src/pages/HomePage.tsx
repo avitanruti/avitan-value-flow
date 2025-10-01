@@ -5,7 +5,7 @@ import { Card } from '@/components/ui/card';
 import { ArrowRight, CheckCircle, Users, TrendingUp, Target } from 'lucide-react';
 import heroImage from '@/assets/hero-consulting.jpg';
 import profileImage from '@/assets/profile.png';
-import agileImage from '@/assets/agile-transformation.jpg';
+import teamWinningImage from '@/assets/team-winning.png';
 import performanceImage from '@/assets/performance-optimization.jpg';
 import portfolioImage from '@/assets/portfolio-management.jpg';
 import programImage from '@/assets/program-management.jpg';
@@ -13,7 +13,7 @@ const HomePage = () => {
   const services = [{
     title: 'Agile & SAFe Transformation',
     description: 'Assessment, LACE, SAFe design & ART launch, Training, value stream funding',
-    image: agileImage,
+    image: teamWinningImage,
     outcome: 'Faster delivery, cross-functional alignment, quality'
   }, {
     title: 'Performance Optimization',

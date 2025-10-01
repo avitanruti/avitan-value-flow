@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { ArrowRight, CheckCircle } from 'lucide-react';
-import agileImage from '@/assets/agile-transformation.jpg';
+import teamWinningImage from '@/assets/team-winning.png';
 import performanceImage from '@/assets/performance-optimization.jpg';
 import portfolioImage from '@/assets/portfolio-management.jpg';
 import programImage from '@/assets/program-management.jpg';
@@ -46,7 +46,7 @@ const ServicesPage = () => {
     },
     {
       title: 'Agile & SAFe Transformation',
-      image: agileImage,
+      image: teamWinningImage,
       description: 'End to end support for organizations ready to scale agility across teams, portfolios, and leadership. SAFe certified experts to guide implementation, coach stakeholders, and align delivery with strategic outcomes. Build and lead Agile transformation programs grounded in the SAFe framework — customized to your organization\'s structure, maturity, and goals. Whether you\'re launching new teams or evolving enterprise agility, our coaching bridges the gap between theory and execution, fostering resilience, clarity, and continuous improvement.',
       keyDeliverables: [
         'Assessment and roadmap development',
