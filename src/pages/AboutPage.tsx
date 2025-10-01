@@ -24,13 +24,10 @@ const AboutPage = () => {
               </Avatar>
             </div>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-6">
-              Welcome, I'm Ruti Avitan.
+              About Ruti Avitan
             </h1>
-            <p className="text-xl text-muted-foreground leading-relaxed mb-4">
-              For over two decades, I've been leading transformations in healthcare technology, SaaS, and enterprise software.
-            </p>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              I specialize in guiding teams to strengthen program management, optimize processes, and lead digital and agile transformations. My focus is on driving operational excellence and delivering sustainable business success end-to-end
+              Global leader in healthcare technology, SaaS, and software transformation with 20+ years of executive experience
             </p>
           </div>
         </div>
