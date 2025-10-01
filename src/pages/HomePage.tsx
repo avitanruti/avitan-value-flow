@@ -41,9 +41,10 @@ const HomePage = () => {
                 <span className="text-primary"> Program Management Services</span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                We help companies strengthen global management practices, optimize program management, 
-                lead digital and agile transformations strength operational excellence and driving end-to-end 
-                value delivery and sustainable business success.
+                Welcome, I'm Ruti Avitan.
+                For over two decades, I've been leading transformations in healthcare technology, SaaS, and enterprise software.
+                <br /><br />
+                I specialize in guiding teams to strengthen program management, optimize processes, and lead digital and agile transformations. My focus is on driving operational excellence and delivering sustainable business success end-to-end
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="text-lg px-8">
