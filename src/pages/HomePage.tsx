@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { ArrowRight, CheckCircle, Users, TrendingUp, Target } from 'lucide-react';
 import heroImage from '@/assets/hero-consulting.jpg';
+import profileImage from '@/assets/profile.png';
 import agileImage from '@/assets/agile-transformation.jpg';
 import performanceImage from '@/assets/performance-optimization.jpg';
 import portfolioImage from '@/assets/portfolio-management.jpg';
@@ -56,7 +57,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="relative">
-              <img src="/lovable-uploads/e21b96a0-dfeb-46ed-9691-71c3400bb13e.png" alt="Professional executives collaborating on business transformation strategy" className="rounded-2xl shadow-lg-custom w-full h-auto" />
+              <img src={profileImage} alt="Ruti Avitan - Program Management and Change Management Consultant" className="rounded-2xl shadow-lg-custom w-full h-auto" />
             </div>
           </div>
         </div>
