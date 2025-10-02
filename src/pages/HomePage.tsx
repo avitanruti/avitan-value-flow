@@ -57,7 +57,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="relative flex items-center justify-center">
-              <img src={profileImage} alt="Ruti Avitan - Program Management and Change Management Consultant" className="rounded-2xl shadow-lg-custom w-auto h-[400px] object-cover" />
+              <img src={profileImage} alt="Ruti Avitan - Program Management and Change Management Consultant" className="rounded-2xl shadow-lg w-auto h-[400px] object-cover" />
             </div>
           </div>
         </div>
