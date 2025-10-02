@@ -60,16 +60,8 @@ const EventsPage = () => {
   };
 
   const getTypeBadge = (type: string) => {
-    const typeColors = {
-      'Meetup': 'bg-blue-100 text-blue-800',
-      'Networking': 'bg-green-100 text-green-800',
-      'Corporate Event': 'bg-purple-100 text-purple-800',
-      'Executive Session': 'bg-orange-100 text-orange-800',
-      'Conference': 'bg-indigo-100 text-indigo-800'
-    };
-    
     return (
-      <Badge variant="outline" className={`${typeColors[type as keyof typeof typeColors]} border-0`}>
+      <Badge variant="outline">
         {type}
       </Badge>
     );
