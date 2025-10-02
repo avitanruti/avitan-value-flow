@@ -12,7 +12,7 @@ const AboutPage = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <div className="mb-8 flex justify-center">
-              <Avatar className="h-32 w-32 md:h-40 md:w-40 border-4 border-white shadow-lg-custom">
+              <Avatar className="h-32 w-32 md:h-40 md:w-40 border-4 border-white shadow-elegant">
                 <AvatarImage src="/lovable-uploads/ad3c999f-8ad9-4b9f-9d28-353404cbcb83.png" alt="Ruti Avitan - Global leader in healthcare technology and software transformation" className="object-cover" />
                 <AvatarFallback className="text-2xl font-heading">RA</AvatarFallback>
               </Avatar>
